@@ -6,8 +6,8 @@
 * stateful componenets
 
 ## Check it out
-1. `git clone`
-2. `cd`
+1. `git clone https://github.com/goughjo02/Generic_desktop_website.git`
+2. `cd Generic_desktop_website`
 3. `yarn install`
 4. `yarn start`
 
