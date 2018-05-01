@@ -1,0 +1,121 @@
+.homePane {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	background-color: rgb(240, 240, 247);
+	padding: 40px;
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+.title {
+	text-align: left;
+	font-size: 35px;
+	padding: 10px;
+	margin-bottom: 20px;
+	color: rgb(26, 85, 122);
+}
+
+.steps {
+	flex: 1;
+	background-color: white;
+	text-align: left;
+}
+
+.steps p {
+	border: solid #dddddd 0.5px ;
+	padding: 20px;
+}
+
+.stepsDiagram {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 75%;
+}
+
+.utilities {
+	flex: 1;
+	display: flex;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.inputText {
+	margin-top: 35px;
+	margin-right: 15px;
+	display: flex;
+	flex: 1.3;
+	flex-direction: column;
+	background-color: white;
+	text-align: left;
+}
+
+.slider {
+	margin-top: 35px;
+	margin-left: 15px;
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	background-color: white;
+	text-align: left;
+}
+
+.utilities p {
+	border: solid #dddddd 0.5px ;
+	padding: 20px;
+	margin-bottom: 0;
+}
+
+.inputBarHolder {
+	display: flex;
+	justify-content: center;
+	align-self: stretch;
+	align-items: center;
+	flex: 1;
+}
+
+.sliderHolder {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.inputBar {
+	height: 45px;
+	width: 88%;
+}
+
+.inputBarText {
+	border: solid rgb(65, 105, 139);
+	background-color: rgb(65, 105, 139);
+	border-radius: 25px;
+	height: 100%;
+	width: 100%;
+	flex: 1;
+	overflow: hidden;
+	margin: auto;
+	margin-top: 0;
+}
+
+.nonCLickable {
+	pointer-events:none;
+}
+.inputBarText .button {
+	background-color: rgb(65, 105, 139);
+	color: white;
+	width: 150px;
+	margin-right: -10px;
+	display: flex;
+	justify-content: center;
+}
+.inputBarText .button:hover {
+	background-color: rgb(20, 31, 58);
+	color: white;
+}
+.inputBarText .button:focus {
+	background-color: rgb(20, 31, 58);
+	color: white;
+}

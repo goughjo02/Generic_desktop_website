@@ -1,0 +1,24 @@
+.linearGradient {
+	color: white;
+	background: linear-gradient(to right, rgb(26, 85, 122) , rgb(20, 31, 58));
+}
+
+.color {
+	color: rgb(65, 105, 139);
+}
+
+.colour1 {
+	background-color: rgb(240, 240, 247);
+}
+
+.colour2 {
+	background-color: rgb(26, 85, 123);
+}
+
+.colour3 {
+	background-color: rgb(20, 31, 58);
+}
+
+.boxShadow {
+	box-shadow: 1px 1px 2px 2px #dddddd;
+}

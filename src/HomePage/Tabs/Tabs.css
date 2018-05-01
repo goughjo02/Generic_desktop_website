@@ -1,0 +1,51 @@
+.Tabs {
+	display: flex;
+	flex: 1;
+	align-items: stretch;
+	height: 90vh;
+	width: 100vw;
+}
+
+.TabMenu {
+	width: 13vw;
+	height: 100%;
+	background-color: rgb(240, 240, 247);
+}
+
+.TabContent {
+	display: flex;
+	align-items: stretch;
+	flex: 1;
+}
+
+.thick {
+	font-weight: bolder;
+}
+.TabItem {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 18vh;
+	background-color: white;
+}
+.nonCLickable {
+	pointer-events:none;
+}
+.SelectedTab {
+	border-top: solid #dddddd 1px;
+	border-bottom: solid #dddddd 1px;
+	border-right: solid rgb(20, 31, 58) 15px;
+	border-left: solid rgb(255, 255, 255) 15px;
+	color: rgb(26, 85, 122);
+}
+.SelectedTab .menuIcon {
+	color: white;
+	background: linear-gradient(to right, rgb(26, 85, 122) , rgb(20, 31, 58));
+	height: 50px;
+	width: 50px;
+	border-radius: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
